@@ -1,6 +1,7 @@
 from pathlib import Path
 from dotenv import load_dotenv
 import os
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Load .env file
 load_dotenv()
